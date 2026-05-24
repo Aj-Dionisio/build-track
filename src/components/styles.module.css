@@ -1,0 +1,146 @@
+.navContent{
+    width: auto;
+    height: 82px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #0f172a;
+
+}
+
+.logo , .login, .links{
+    height: 50px;
+    
+}
+.logo , .links{
+    padding-top: 10px;
+}
+
+
+a{
+    color: #94A3B8;
+    text-decoration: none;
+    margin:10px;
+}
+
+a:hover{
+    color:#3B82F6;
+    text-decoration: underline;
+    text-underline-offset: 35px;
+}
+
+.navButton{
+height: 40px;
+width: auto;
+background-color: transparent;
+font-size: 14px;
+line-height: 20px;
+margin: 5px;
+padding: 5px;
+color:#fff;
+border-radius: 5px;
+border: 1px transparent;
+}
+.navButton:hover, .textButton:hover{
+    background-color:#3B82F6;
+}
+
+.textContent{
+    width: auto;
+    height: 787px;
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+.text{
+    width: 550px;
+    height: 780px;
+    margin: 50px;
+    padding-top: 150px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+
+.containerImg{
+    height: 700px;
+    width: 600px;
+}
+.image img{
+    padding-top: 150px;
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+}
+
+.textButton , .projectInfo button{
+    background-color: transparent;
+    color:#fff;
+    width: 172px;
+    height: 58px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px transparent;
+    margin-right: 5px;
+    margin-top:30px;
+    background-color: #0f172a;
+
+}
+
+span{
+    /* arrumar o gradient */
+    
+  font-size: 4rem;
+  font-weight: bold;
+
+  background: linear-gradient(
+    rgba(37, 99, 235,100)
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+
+}
+
+.sectionContent{
+    background-color: #111827;
+    height: 485px;
+    width: auto;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    padding-top: 75px;
+}
+
+.information p{
+    margin-top: 15px;
+    
+}
+
+.projectInfo{
+    background-color: #111827;
+    height: 485px;
+    width: auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.projectText{
+
+}
