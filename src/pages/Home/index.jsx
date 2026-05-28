@@ -1,9 +1,9 @@
 import './style.css'
-import NavBar from '../../components/Navbar/NavBar'
-import Hero from '../../components/Hero/main'
-import Section from '../../components/section/section'
-import Project from '../../components/ProjectSection/ProjectSection'
-import Contact from '../../components/Contact/Contact'
+import NavBar from '../../components/Navbar'
+import Hero from '../../components/Hero'
+import Section from '../../components/Section'
+import Project from '../../components/ProjectSection'
+import Contact from '../../components/Contact'
 
 
 function Home() {
