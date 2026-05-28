@@ -1,0 +1,33 @@
+.projectInfo button{
+    background-color: transparent;
+    color:#fff;
+    width: 172px;
+    height: 58px;
+    padding: 5px;
+    border-radius: 5px;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-right: 5px;
+    margin-top:30px;
+    background-color: #0f172a;
+
+}
+
+.sectionContent{
+    background-color: #111827;
+    height: 485px;
+    width: auto;
+    display: flex;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    padding-top: 75px;
+}
+
+.information p{
+    margin-top: 15px;
+    
+}

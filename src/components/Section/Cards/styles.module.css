@@ -1,0 +1,29 @@
+.container{
+    height: 160px;
+    width: 280px;
+    background-color: #fff;
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.sup{
+    background-color: peru;
+    width: 100vh;
+    height: 50px;
+    
+}
+.img{
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    margin: 5px 15px;
+}
+
+.text{
+    color:#000;
+    font-size: 12px;
+
+}
