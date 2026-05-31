@@ -11,6 +11,9 @@ function Section() {
         </div>
         <div>
           <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
 
       </div>
