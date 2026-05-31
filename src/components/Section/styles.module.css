@@ -41,4 +41,9 @@
     margin: 15px;
     
 }
+.card{
+    display: flex;
+    gap: 20px;
+}
+
 

@@ -9,7 +9,7 @@ function Section() {
           <h1>Visão Geral da Operação</h1>
           <p>Monitore os principais indicadores de desempenho de todos os seus projetos em tempo real.</p>
         </div>
-        <div>
+        <div className={Style.card}>
           <Card />
           <Card />
           <Card />
