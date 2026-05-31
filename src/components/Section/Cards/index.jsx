@@ -2,12 +2,14 @@ import Styles from './styles.module.css'
 
 function Card() {
     return (
-        <div className={Styles.container}>
+        < div className={Styles.container}>
             <div className={Styles.geral}>
-                <div className={Styles.text}>Obras ativas 14</div>
+                <div className={Styles.text}>Obras ativas <span>14</span></div>
                 <div className={Styles.img}></div>
             </div>
-<div className={Styles.info}</div>
+            <div className={Styles.info}>
+                <div className={Styles.infoStatus}> 2%</div>
+            texto xpto</div>
             
 
         </div >

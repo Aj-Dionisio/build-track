@@ -3,18 +3,18 @@ import Card from './Cards'
 
 function Section() {
   return (
-  <section className={Style.sectionContent}>
-    <div className={Style.information}>
-      <div>
-        <h1>Visão Geral da Operação</h1>
-        <p>Monitore os principais indicadores de desempenho de todos os seus projetos em tempo real.</p>
-      </div>
-      <div>
-        <Card />
-      </div>
+    <section className={Style.sectionContent}>
+      <div className={Style.information}>
+        <div className={Style.title}>
+          <h1>Visão Geral da Operação</h1>
+          <p>Monitore os principais indicadores de desempenho de todos os seus projetos em tempo real.</p>
+        </div>
+        <div>
+          <Card />
+        </div>
 
-    </div>
-  </section>
+      </div>
+    </section>
   )
 }
 
