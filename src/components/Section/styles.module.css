@@ -1,18 +1,18 @@
-.projectInfo button{
+.projectInfo button {
     background-color: transparent;
-    color:#fff;
+    color: #fff;
     width: 172px;
     height: 58px;
     padding: 5px;
     border-radius: 5px;
-   border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     margin-right: 5px;
-    margin-top:30px;
+    margin-top: 30px;
     background-color: #0f172a;
 
 }
 
-.sectionContent{
+.sectionContent {
     background-color: #111827;
     height: fit-content;
     width: auto;
@@ -21,29 +21,28 @@
 
 }
 
-.title{
+.title {
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-.information{
+.information {
     display: flex;
     flex-direction: column;
-    color:#fff;
+    color: #fff;
     padding: 40px 0 0 25px;
     gap: 25px;
-    
+
 }
 
-.information p{
+.information p {
     margin: 15px;
-    
+
 }
-.card{
+
+.card {
     display: flex;
     gap: 20px;
 }
-
-

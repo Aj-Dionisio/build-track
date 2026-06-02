@@ -1,4 +1,4 @@
-.projectInfo{
+.projectInfo {
     background-color: #111827;
     height: 485px;
     width: auto;
@@ -7,8 +7,35 @@
     justify-content: center;
     align-items: center;
     border: 1px solid olivedrab;
+    display: flex;
+    flex-direction: column;
 }
 
-/* .projectText{
+.projectText {
+    border: solid 1px red;
+    display: flex;
+    justify-content: space-between;
+    width: 1216px;
+    height: fit-content;
+}
 
-} */
+h2 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+
+p{
+    line-height: 20px;
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.cardProject{
+    background-color:  red;
+    height: 150px;
+    width: 300px;
+
+}

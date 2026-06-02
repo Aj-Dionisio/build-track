@@ -14,6 +14,7 @@
 
 h1 {
     font-size: 3rem;
+    color: #fff;
 }
 
 
@@ -49,9 +50,7 @@ h1 {
     background-color:#3B82F6;
 }
 
-span{
-    /* arrumar o gradient */
-    
+span{ 
   font-size: 4rem;
   font-weight: bold;
 

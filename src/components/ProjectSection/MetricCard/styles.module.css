@@ -1,0 +1,46 @@
+.cardContainer{
+    background-color: #1E293B;
+    color:#fff;
+    width: 389px;
+    height: 227px;
+    padding: 15px;
+}
+
+.sup{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:15px;
+}
+
+.text , .text span {
+    color: white;
+    font-size: 1rem;
+    margin-right: 60px;
+    
+
+}
+
+.text span{
+    display: block;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+    background-color: bisque;
+    margin-left: 10px;
+}
+
+.status{
+    width: 50px;
+    height: 25px;
+    background-color: #008000;
+    
+}
+
+.bar{
+    margin-top: 50px;
+    
+}
+
