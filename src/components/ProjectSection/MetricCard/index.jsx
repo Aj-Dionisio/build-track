@@ -17,7 +17,7 @@ function Card() {
                 <div> <ProgressBar progress={25} /></div>
                 <div className={Styles.inf}>
                     <div className={Styles.people}></div>
-                    <button>Detalhes</button>
+                    <button>Detalhes  &#8594; </button>
                 </div>
             </div>
 

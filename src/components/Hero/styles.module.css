@@ -55,8 +55,11 @@ span{
   font-weight: bold;
 
   background: linear-gradient(
-    rgba(37, 99, 235,100)
+     90deg,
+    #2563EB,
+    #38BDF8
   );
+  
 
   -webkit-background-clip: text;
   background-clip: text;
