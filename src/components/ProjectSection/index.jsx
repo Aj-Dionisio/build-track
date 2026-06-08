@@ -18,9 +18,24 @@ function ProjectSection() {
       </div>
 
       <div className={Styles.cardProject}>
-        <Card />
-        <Card />
-        <Card />
+        <Card
+          title="Residencial Aurora"
+          city="São Paulo, SP"
+          status="No Prazo"
+          progress ={68}
+        />
+        <Card
+          title="Complexo Viario Sul"
+          city="Curitiba-PR"
+          status="Atenção"
+          progress ={42}
+        />
+        <Card
+          title="Hospital central"
+          city="Belo Horizonte-MG"
+          status="No Prazo"
+          progress ={89}
+        />
       </div>
 
       <button>Ver todos os Projetos &#8594;</button>

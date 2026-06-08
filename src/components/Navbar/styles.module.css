@@ -9,11 +9,11 @@
 
 }
 
-.logo , .login, .links{
+.login, .links{
     height: 50px;
     
 }
-.logo , .links{
+.links{
     padding-top: 10px;
 }
 
@@ -44,4 +44,9 @@ border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .navButton:hover{
     background-color:#3B82F6;
+}
+
+.logo img{
+    height: 82px;
+    width: 200px;
 }
