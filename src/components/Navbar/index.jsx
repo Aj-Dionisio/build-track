@@ -1,5 +1,5 @@
 import Styles from './styles.module.css'
-import Logo from '../../assets/logo visivel.png'
+import Logo from '../../assets/logo2.png'
 
 function NavBar() {
     return (
