@@ -4,7 +4,7 @@ function Card() {
     return (
         < div className={Styles.container}>
             <div className={Styles.geral}>
-                <div className={Styles.text}>Obras ativas <span>14</span></div>
+                <div className={Styles.text}><h2>Obras ativas</h2> <span>14</span></div>
                 <div className={Styles.img}></div>
             </div>
             <div className={Styles.info}>
