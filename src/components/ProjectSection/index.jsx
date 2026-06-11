@@ -23,6 +23,7 @@ function ProjectSection() {
           city="São Paulo, SP"
           status="No Prazo"
           progress ={68}
+          
         />
         <Card
           title="Complexo Viario Sul"
