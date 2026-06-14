@@ -13,7 +13,7 @@ function Card({ title, city, progress, status }) {
 
                 <div
                     className={`${Styles.status} 
-                    ${status === "Atrasado"
+                    ${status === "Atenção"
                             ? Styles.delay
                             : Styles.onTime
                         }`}
@@ -22,7 +22,7 @@ function Card({ title, city, progress, status }) {
                 </div>
             </div>
             <div className={Styles.bar}>
-                <div className={Styles.info}> Progresso Geral</div>
+                <div className={Styles.info}> Progresso Geral <span>{progress}%</span> </div>
                 <div> <ProgressBar progress={progress} /></div>
                 <div className={Styles.inf}>
                     <div className={Styles.people}><TeamMembers /></div>

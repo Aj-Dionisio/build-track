@@ -1,6 +1,6 @@
  import Styles from './styles.module.css'
  
- function ProgressBar(progress) {
+ function ProgressBar({progress}) {
 
   return (
 

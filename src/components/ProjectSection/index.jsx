@@ -39,7 +39,7 @@ function ProjectSection() {
         />
       </div>
 
-      <button>Ver todos os Projetos &#8594;</button>
+      <button className={Styles.buttonProjects}>Ver todos os Projetos  &#8594;</button>
     </section>
   )
 }
