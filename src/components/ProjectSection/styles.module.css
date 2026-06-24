@@ -1,7 +1,7 @@
 .projectInfo {
     background-color: #111827;
     height: 750px;
-    width: auto;
+    width: 1024;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -16,7 +16,8 @@
     display: flex;
     width: 1216px;
     height: 100px;
-    padding: 15px;
+    padding-left : 15px;
+
 }
 
 
@@ -24,22 +25,25 @@
 h2 {
     font-size: 30px;
     line-height: 30px;
-    font-weight: bold; ;
+    font-weight: bold;
 
 }
 
 p{
     line-height: 20px;
     font-size: 1rem;
+  
 }
+
 
 .cardProject{
     height: 350px;
     width: 100%;
     display: flex;
+    justify-content: space-around;
     gap: 30px;
-    justify-content: start;
     padding: 15px;
+    
 
 }
 
