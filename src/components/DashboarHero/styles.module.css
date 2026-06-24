@@ -1,0 +1,35 @@
+.container{
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    background: #fff;
+    margin-left: auto;
+}
+
+.navegation{
+
+	display: flex;
+    width: 100vw;
+	flex-direction: column;
+	background: #fff;	
+    
+
+}
+
+.metricCards{
+width:100vw;
+background: Orange;
+margin-left:auto; 
+display: flex;
+gap:12px;
+justify-content: center;
+}
+
+.dashboardPainel{
+    background-color: #fff;
+    width: 100vw;
+    margin: auto;
+}
