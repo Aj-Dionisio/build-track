@@ -11,7 +11,7 @@ function Home() {
   return (
     <div className='page'>
       <div className='container'>
-        <NavBar />
+        <NavBar variant ='navbar' />
         <Hero />
       </div>
       <Section />

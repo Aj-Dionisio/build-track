@@ -4,16 +4,18 @@ import {Link} from 'react-router-dom'
 
 
 
-function NavBar() {
+function NavBar({variant = "navbar"}) {
     return (
-        <nav className={Styles.navContent} >
+        <nav className={variant === "sidebar"
+          ? Styles.sidebar
+          : Styles.navContent} >
                 <div className={Styles.logo}>
                     <img src={Logo} alt="Logo" /></div>
                 <div className={Styles.links}>
-                    <Link href="/">Home</Link>
+                    <Link to="/">Home</Link>
                     <Link to="/dashboard">Dashboard Principal </Link>
-                    <a href="">Projetos</a>
-                    <a href="">Relatórios</a>
+                    <a to="">Projetos</a>
+                    <a to="">Relatórios</a>
                 </div>
                 <div className={Styles.login}>
                     <button className={Styles.navButton} type='button'>Login</button>

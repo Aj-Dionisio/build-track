@@ -1,35 +1,42 @@
-.container{
-	width: 100%;
-	max-width: 1200px;
-	display: flex;
-    flex-direction: column;
-	align-items: center;
-	justify-content: center;
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    justify-content: center;
     background: #fff;
     margin-left: auto;
+    border: 1px solid red;
 }
 
-.navegation{
 
-	display: flex;
-    width: 100vw;
-	flex-direction: column;
-	background: #fff;	
-    
-
+.titleAndSearch {
+    background-color: green;
+    font-size: 1.5rem;
 }
 
-.metricCards{
-width:100vw;
-background: Orange;
-margin-left:auto; 
-display: flex;
-gap:12px;
-justify-content: center;
-}
-
-.dashboardPainel{
-    background-color: #fff;
-    width: 100vw;
+.mainContent {
+    background: #fff;
     margin: auto;
+    height: auto;
+}
+
+.metricCards {
+    background: Orange;
+    margin-left: auto;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.dashboardPainel {
+    background-color: blueviolet;
+}
+
+.climaStatus {
+    background-color: antiquewhite;
+}
+
+.criticalTasks {
+    background-color: aqua;
 }
