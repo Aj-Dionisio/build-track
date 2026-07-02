@@ -7,7 +7,7 @@ function DashboardHero() {
 		<div className={Styles.container}>
 			
 			<section className={Styles.sidebar}>
-				<NavBar variant=sidebar />
+				<NavBar variant="sidebar" />
 			</section>
 
 			<main className={Styles.mainContent}>
