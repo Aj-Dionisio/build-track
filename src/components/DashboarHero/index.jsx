@@ -15,12 +15,12 @@ function DashboardHero() {
 					<h2>Dashboard de operações</h2>
 					<p>visão geral em tempo de real de obras atrivas</p>
 				</article>
-				<setion className={Styles.metricCards}>
+				<section className={Styles.metricCards}>
 					<Cards />
 					<Cards />
 					<Cards />
 					<Cards /> 
-				</setion>
+				</section>
 				<section className={Styles.dashboardPainel}>AQUI VEM O DASHBOARD</section>
 				<section className={Styles.climaStatus}>AQUI VEM A PARTE DO CLIMA</section>
 				<section className={Styles.criticalTasks}>AQUI VEM A PARTE DAS TAREFAS CRITICAS</section>
