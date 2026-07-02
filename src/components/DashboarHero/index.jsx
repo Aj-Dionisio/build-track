@@ -10,7 +10,7 @@ function DashboardHero() {
 				<NavBar variant="sidebar" />
 			</section>
 
-			<main className={Styles.mainContent}>
+			<header className={Styles.mainContent}>
 				<article className={Styles.titleAndSearch}>
 					<h2>Dashboard de operações</h2>
 					<p>visão geral em tempo de real de obras atrivas</p>
@@ -24,7 +24,7 @@ function DashboardHero() {
 				<section className={Styles.dashboardPainel}>AQUI VEM O DASHBOARD</section>
 				<section className={Styles.climaStatus}>AQUI VEM A PARTE DO CLIMA</section>
 				<section className={Styles.criticalTasks}>AQUI VEM A PARTE DAS TAREFAS CRITICAS</section>
-			</main>
+			</header>
 
 
 		</div>
