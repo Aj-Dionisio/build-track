@@ -1,29 +1,41 @@
 .container {
-    width: 100%;
-    min-height: 100vh;
     display: grid;
-    grid-template-columns: 350px 1fr;
-    justify-content: center;
-    background: #fff;
-    margin-left: auto;
-    border: 1px solid red;
+    grid-template-columns: 250px 1fr;
+    min-height: 100vh;
+    
 }
 
+.sideBar.mainContent {
+    background: #0f172a;
+}
 
 .titleAndSearch {
-    background-color: green;
     font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+
+.title h1,
+.title p {
+    margin: 0;
+}
+
+.title p{
+    margin-top: 15px;
 }
 
 .mainContent {
-    background: #fff;
-    margin: auto;
-    height: auto;
+    height: 100vh;
+    padding: 24px 0 ;
 }
 
 .metricCards {
     background: Orange;
     margin-left: auto;
+    margin-bottom: 12px;
     display: flex;
     gap: 12px;
     justify-content: center;

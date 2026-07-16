@@ -1,5 +1,5 @@
 .navContent{
-    width: 1024;
+    width: 1024px;
     height: 82px;
     display: flex;
     justify-content: space-around;
@@ -9,10 +9,6 @@
 
 }
 
-.login, .links{
-    height: 50px;
-    
-}
 .links{
     padding-top: 10px;
 }
@@ -41,7 +37,8 @@ color:#fff;
 border-radius: 5px;
 border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.navButton:hover{
+
+.navbar.navButton:hover{
     background-color:#3B82F6;
 }
 
@@ -49,12 +46,46 @@ border: 1px solid rgba(255, 255, 255, 0.1);
     height: 200px;
     width: 250px;
 }
+.sideBar{
+    height: 100vh;
+    width: 100%;
+    min-width: 20%;
+    border: 1px solid #000;
+    font-size:14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-.sidebar {
+.sideBar .logo img{
+    height: 140px;
+    width: 190px;
+}
 
+.sideBar .links{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: #0f172a;
-    min-height: 1vh;
+    gap: 10px;
+    line-height: 24px;
+    font-size: 14px;
+    width: 200px;
+    height: auto;
+
 }
+
+.sideBar a:hover{
+    border-left: 3px solid #2563EB;
+    border-radius: 7px;
+    text-decoration: none;
+    padding-left:5px;
+}
+
+.sideBar .login{
+    display: flex;
+    flex-direction: column;
+    width:auto;
+    margin-top: 100px;
+}
+
+.sideBar .navButton{
+    cursor: pointer;
+}
+

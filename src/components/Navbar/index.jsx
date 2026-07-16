@@ -7,15 +7,15 @@ import {Link} from 'react-router-dom'
 function NavBar({variant = "navbar"}) {
     return (
         <nav className={variant === "sidebar"
-          ? Styles.sidebar
+          ? Styles.sideBar
           : Styles.navContent} >
                 <div className={Styles.logo}>
                     <img src={Logo} alt="Logo" /></div>
                 <div className={Styles.links}>
                     <Link to="/">Home</Link>
                     <Link to="/dashboard">Dashboard Principal </Link>
-                    <a to="">Projetos</a>
-                    <a to="">Relatórios</a>
+                    <Link to="#">Projetos</Link>
+                    <Link to="#">Relatórios</Link>
                 </div>
                 <div className={Styles.login}>
                     <button className={Styles.navButton} type='button'>Login</button>
