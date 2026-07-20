@@ -51,3 +51,33 @@
     background-color: #96cab7;
     height: fit-content;
 }
+
+.metricCards{
+    display: flex;
+
+}
+
+.metricCards .infoText, .metricCards .img{
+    display: none;
+}
+
+.metricCards{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.metricCards .geral{
+    width:210px;
+    height: 100px;
+    
+}
+
+
+.metricCards .info{
+    width:fit-content;
+    height: auto;
+}

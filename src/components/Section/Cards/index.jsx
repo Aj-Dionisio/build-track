@@ -1,18 +1,35 @@
 import Styles from './styles.module.css'
 
-function Card() {
+
+
+function Card({ variant = "container",titulo , numero, status,tipo}) {
+
+    const tipos = {
+    Obras: Styles.obras,
+    Produtividade: Styles.produtividade,
+    Alertas: Styles.alertas,
+    Equipe: Styles.equipe
+};
+    
     return (
-        < div className={Styles.container}>
+        
+        <section className={`${variant === "metricCards"
+            ? Styles.metricCards
+            : Styles.container} ${tipos[tipo]}`}>
+
             <div className={Styles.geral}>
-                <div className={Styles.text}><h2>Obras ativas</h2> <span>14</span></div>
-                <div className={Styles.img}></div>
+                <div className={Styles.text}>
+                    <h2>{titulo}</h2>
+                    <span>{numero}</span></div>
+                <article className={Styles.img}></article>
             </div>
             <div className={Styles.info}>
-                <div className={Styles.infoStatus}> 2%</div>
-            texto xpto</div>
-            
+                <div className={Styles.infoStatus}> {status}</div>
+                <p className={Styles.infoText}>texto xpto</p>
+            </div>
 
-        </div >
+
+        </section>
     )
 }
 

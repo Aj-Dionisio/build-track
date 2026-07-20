@@ -4,6 +4,8 @@ import Cards from '../Section/Cards'
 
 import SearchBar from '../SearchBar'
 
+
+
 function DashboardHero() {
 	return (
 		<div className={Styles.container}>
@@ -24,10 +26,34 @@ function DashboardHero() {
 					</div>
 				</article>
 				<section className={Styles.metricCards}>
-					<Cards />
-					<Cards />
-					<Cards />
-					<Cards /> 
+					<Cards variant="metricCards"
+						titulo ="Obras em andamento"
+						numero="12"
+						status="2%"
+						tipo="obras"
+					
+					/>
+					<Cards variant="metricCards"
+						titulo ="Produtividade Global"
+						numero="87"
+						status="4,2%"
+						tipo="produtividade"
+					
+					/>
+					<Cards variant="metricCards"
+						titulo ="Alertas Ativos"
+						numero="3"
+						status="Atenção"
+						tipo="alertas"
+					
+					/>
+					<Cards variant="metricCards"
+						titulo ="Equipe em Campo"
+						numero="342"
+						status="Total"
+						tipo="equipe"
+					
+					/>
 				</section>
 				<section className={Styles.dashboardPainel}>AQUI VEM O DASHBOARD</section>
 				<section className={Styles.climaStatus}>AQUI VEM A PARTE DO CLIMA</section>

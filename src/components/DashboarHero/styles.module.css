@@ -29,17 +29,18 @@
 
 .mainContent {
     height: 100vh;
-    padding: 24px 0 ;
+    padding: 24px 20px ;
 }
 
 .metricCards {
-    background: Orange;
-    margin-left: auto;
+    height: auto;
     margin-bottom: 12px;
     display: flex;
     gap: 12px;
     justify-content: center;
 }
+
+
 
 .dashboardPainel {
     background-color: blueviolet;
