@@ -5,10 +5,10 @@ import Styles from './styles.module.css'
 function Card({ variant = "container",titulo , numero, status,tipo}) {
 
     const tipos = {
-    Obras: Styles.obras,
-    Produtividade: Styles.produtividade,
-    Alertas: Styles.alertas,
-    Equipe: Styles.equipe
+    obras: Styles.obras,
+    produtividade: Styles.produtividade,
+    alertas: Styles.alertas,
+    equipe: Styles.equipe
 };
     
     return (
@@ -27,11 +27,14 @@ function Card({ variant = "container",titulo , numero, status,tipo}) {
                 <div className={Styles.infoStatus}> {status}</div>
                 <p className={Styles.infoText}>texto xpto</p>
             </div>
-
-
+        
+        
         </section>
     )
 }
 
+
+
 export default Card
+
 

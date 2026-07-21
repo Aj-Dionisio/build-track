@@ -35,7 +35,7 @@ function DashboardHero() {
 					/>
 					<Cards variant="metricCards"
 						titulo ="Produtividade Global"
-						numero="87"
+						numero="87%"
 						status="4,2%"
 						tipo="produtividade"
 					
