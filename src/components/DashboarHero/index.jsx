@@ -1,9 +1,8 @@
 import Styles from './styles.module.css'
 import NavBar from '../../components/Navbar'
 import Cards from '../Section/Cards'
-
 import SearchBar from '../SearchBar'
-
+import Charts from '../Charts'
 
 
 function DashboardHero() {
@@ -55,7 +54,7 @@ function DashboardHero() {
 					
 					/>
 				</section>
-				<section className={Styles.dashboardPainel}>AQUI VEM O DASHBOARD</section>
+				<section className={Styles.dashboardPainel}><Charts/></section>
 				<section className={Styles.climaStatus}>AQUI VEM A PARTE DO CLIMA</section>
 				<section className={Styles.criticalTasks}>AQUI VEM A PARTE DAS TAREFAS CRITICAS</section>
 			</header>

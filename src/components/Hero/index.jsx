@@ -7,7 +7,7 @@ function Main() {
         <div className={Styles.textContent}>
                   <div className={Styles.text}>
                     <h1>
-                      Tecnologia e Engenharia <span> trabalhando juntas</span>
+                      Tecnologia e Engenharia <span className={Styles.highlinght}> trabalhando juntas</span>
                     </h1>
                     <p>
                       Gerencie obras, equipes e cronogramas em tempo real com nossa plataforma SaaS. Decisões baseadas em dados para a construção civil do futuro.

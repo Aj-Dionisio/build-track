@@ -1,7 +1,21 @@
 .container {
     display: grid;
     grid-template-columns: 250px 1fr;
+    grid-template-rows: 80px 150px 1fr 250px;
+    gap: 20px;
     min-height: 100vh;
+    
+}
+
+.mainContent {
+    height: 100vh;
+    padding: 24px 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto 1fr 1fr;
+    grid-template-areas: "title title" "cards cards" "dashboard clima" "dashboard tarefas";
+    gap: 20px;
+    
     
 }
 
@@ -15,6 +29,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 25px;
+    grid-area: title;
 
 }
 
@@ -27,29 +42,38 @@
     margin-top: 15px;
 }
 
-.mainContent {
-    height: 100vh;
-    padding: 24px 20px ;
-}
-
 .metricCards {
     height: auto;
     margin-bottom: 12px;
     display: flex;
     gap: 12px;
     justify-content: center;
+    grid-area:cards;
 }
 
 
 
 .dashboardPainel {
-    background-color: blueviolet;
+    grid-area:dashboard;
+    min-height: 400px;
+    margin-right: 50px;
+    
+   
+
 }
 
 .climaStatus {
+    grid-area:clima;
     background-color: antiquewhite;
+    min-height: 250px;
+    
+    
 }
 
 .criticalTasks {
+    grid-area:tarefas;
     background-color: aqua;
+    min-height: 250px;
+    
+    
 }
