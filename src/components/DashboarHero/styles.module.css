@@ -57,23 +57,17 @@
     grid-area:dashboard;
     min-height: 400px;
     margin-right: 50px;
-    
-   
-
 }
 
 .climaStatus {
     grid-area:clima;
-    background-color: antiquewhite;
     min-height: 250px;
-    
-    
+    border-radius: 16px;
+    padding: 24px;
 }
 
 .criticalTasks {
     grid-area:tarefas;
     background-color: aqua;
     min-height: 250px;
-    
-    
 }

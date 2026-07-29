@@ -1,0 +1,29 @@
+.container h2{
+    color:#fff;
+    font-size: 2rem;
+}
+.container h3{
+    font-size: 1.5rem;
+    color:#94a3b8;
+    padding-top: 5px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-items: baseline;
+    margin-left: 2rem;
+}
+
+.icon{
+    line-height: 4rem;
+    font-size: 3rem;
+}
+
+.item p{
+    font-size: 2rem;
+    line-height: 3rem;
+   
+
+}
