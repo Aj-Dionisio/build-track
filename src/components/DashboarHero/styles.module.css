@@ -4,7 +4,6 @@
     grid-template-rows: 80px 150px 1fr 250px;
     gap: 20px;
     min-height: 100vh;
-    
 }
 
 .mainContent {
@@ -15,8 +14,6 @@
     grid-template-rows: auto auto 1fr 1fr;
     grid-template-areas: "title title" "cards cards" "dashboard clima" "dashboard tarefas";
     gap: 20px;
-    
-    
 }
 
 .sideBar.mainContent {
@@ -38,7 +35,7 @@
     margin: 0;
 }
 
-.title p{
+.title p {
     margin-top: 15px;
 }
 
@@ -48,26 +45,64 @@
     display: flex;
     gap: 12px;
     justify-content: center;
-    grid-area:cards;
+    grid-area: cards;
 }
 
 
 
 .dashboardPainel {
-    grid-area:dashboard;
+    grid-area: dashboard;
     min-height: 400px;
     margin-right: 50px;
 }
 
 .climaStatus {
-    grid-area:clima;
+    grid-area: clima;
     min-height: 250px;
     border-radius: 16px;
-    padding: 24px;
+    padding-left: 24px;
+    padding-top: 24px;
 }
 
 .criticalTasks {
-    grid-area:tarefas;
-    background-color: aqua;
+    grid-area: tarefas;
     min-height: 250px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.titleTask {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+
+.titleButton {
+    color: #2563EB;
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.titleButton:hover {
+    font-size: 1.1rem;
+    color: #38BDF8;
+}
+
+.allTasks {
+    font-size: 1rem;
+    font-weight: medium;
+    color: #ffff;
+    background-color: transparent;
+    border: none;
+    margin-left: 25%;
+}
+
+.allTasks:hover {
+    font-size: 1.1rem;
+    color: #38BDF8;
 }

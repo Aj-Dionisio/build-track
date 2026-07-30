@@ -22,14 +22,14 @@
 
 
 
-h2 {
+.projectTitle{
     font-size: 30px;
     line-height: 30px;
     font-weight: bold;
 
 }
 
-p{
+.projectParagraph{
     line-height: 20px;
     font-size: 1rem;
   

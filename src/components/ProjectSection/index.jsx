@@ -7,8 +7,8 @@ function ProjectSection() {
     <section className={Styles.projectInfo}>
       <div className={Styles.projectText}>
         <div>
-          <h2>Projetos em Destaque</h2>
-          <p>Acompanhamento detalhado das principais obras.</p>
+          <h2 className={Styles.projectTitle}>Projetos em Destaque</h2>
+          <p className={Styles.projectParagraph}>Acompanhamento detalhado das principais obras.</p>
         </div>
 
         <div className={Styles.divButton}>
