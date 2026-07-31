@@ -1,26 +1,28 @@
 .container {
     height: 160px;
-    width: 280px;
+    width: 100%;
+    max-width: 280px;
     display: flex;
     flex-direction: column;
     background-color: #1E293B;
     border-radius: 16px;
     border: 1px solid #000;
-    padding: 20px 0 0 10px;
+    padding: 20px 10px 0;
+    gap: 15px;
 
 }
 
 .geral {
-    width: 279px;
+    width: 100%;
+    max-width: 279px;
     height: 60px;
     display: flex;
     justify-content: space-between;
 }
 
 .img {
-    height: 40px;
-    width: 40px;
-    background-color: orange;
+    height: 20px;
+    width: 100px;
     margin-top: 10px;
     margin-right: 30px;
 }
@@ -40,11 +42,17 @@
 }
 
 .info {
-    width: 279px;
+    width: 100%;
     height: 100vh;
     display: flex;
-    padding-top: 35px;
-    gap: 5px;
+    padding-top: 10px;
+    align-items: baseline;
+
+}
+
+.info.cronograma{
+    display: flex;
+    flex-direction: column;
 }
 
 .infoStatus {

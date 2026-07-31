@@ -1,5 +1,5 @@
 .projectInfo button {
-    background-color: transparent;
+    /* background-color: transparent; */
     color: #fff;
     width: 172px;
     height: 58px;
@@ -15,9 +15,10 @@
 .sectionContent {
     background-color: #111827;
     height: fit-content;
-    width: 1024;
+    width: 100%;
     display: flex;
     flex-direction: column;
+   align-items: center;
 
 }
 
@@ -26,6 +27,11 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+.title p {
+    margin: 15px;
+
 }
 
 .information {
@@ -37,12 +43,8 @@
 
 }
 
-.information p {
-    margin: 15px;
-
-}
-
 .card {
+    width: 100%;
     display: flex;
     gap: 20px;
 }

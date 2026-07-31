@@ -81,7 +81,7 @@ function DashboardHero() {
 					/>
 
 					<button className={Styles.allTasks}>
-						Ver todas as tarefas 
+						Ver todas as tarefas &#8594;
 					</button>
 				</section>
 			</header>

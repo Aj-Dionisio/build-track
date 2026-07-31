@@ -2,17 +2,18 @@ import Styles from './styles.module.css'
 
 
 
-function Card({ variant = "container",titulo , numero, status,tipo}) {
+function Card({ variant = "container", titulo, numero, status, tipo, text, indicador}) {
 
     const tipos = {
-    obras: Styles.obras,
-    produtividade: Styles.produtividade,
-    alertas: Styles.alertas,
-    equipe: Styles.equipe
-};
-    
+        obras: Styles.obras,
+        produtividade: Styles.produtividade,
+        alertas: Styles.alertas,
+        equipe: Styles.equipe,
+        cronograma: Styles.cronograma
+    };
+
     return (
-        
+
         <section className={`${variant === "metricCards"
             ? Styles.metricCards
             : Styles.container} ${tipos[tipo]}`}>
@@ -23,12 +24,13 @@ function Card({ variant = "container",titulo , numero, status,tipo}) {
                     <span>{numero}</span></div>
                 <article className={Styles.img}></article>
             </div>
-            <div className={Styles.info}>
-                <div className={Styles.infoStatus}> {status}</div>
-                <p className={Styles.infoText}>texto xpto</p>
+            <div className={`${Styles.info} ${Styles[tipo]}`}>
+                {indicador ? (indicador) : (<div className={Styles.infoStatus}>{status}</div>)}
+
+                <p className={Styles.infoText}>{text}</p>
             </div>
-        
-        
+
+
         </section>
     )
 }

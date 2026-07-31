@@ -1,5 +1,5 @@
 .navContent{
-    width: 1024px;
+    width: 100%;
     height: 82px;
     display: flex;
     justify-content: space-around;
@@ -22,7 +22,7 @@ a{
 a:hover{
     color:#3B82F6;
     text-decoration: underline;
-    text-underline-offset: 35px;
+    text-underline-offset: 28px;
 }
 
 .navButton{
@@ -38,7 +38,7 @@ border-radius: 5px;
 border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.navbar.navButton:hover{
+.navbar,.navButton:hover{
     background-color:#3B82F6;
 }
 
@@ -92,6 +92,10 @@ border: 1px solid rgba(255, 255, 255, 0.1);
 
 }
 
-.sideBar .navButton:hover{
-    color:#3B82F6;
+.sideBar{
+     color:#3B82F6;
+}
+
+.navButton:hover{
+     backgrund-color:#3B82F6;
 }
