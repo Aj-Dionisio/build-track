@@ -6,7 +6,7 @@
 .task {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: auto;
     padding: 10px;
 
 }
@@ -43,9 +43,8 @@
 .status {
     border: 1px solid transparent;
     border-radius: 5px;
-    padding: 5px;
+    padding: 2px;
     width: auto;
-    height: 35px;
 }
 
 .status.alta {
@@ -64,5 +63,33 @@
 .status.baixa {
     color: #15803D;
     background-color: #DCFCE7;
+
+}
+
+@media(max-width:768px){
+    .taskTitle{
+        font-size: 1rem;
+        margin-bottom: 0px;
+    }
+
+    .status{
+        font-size: .8rem;
+    }
+
+}
+
+@media(max-width:1440px){
+    .taskTitle{
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
+
+    .status{
+        font-size: 2rem;
+    }
+
+    .taskHour{
+        font-size: 2rem;
+    }
 
 }

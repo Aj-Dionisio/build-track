@@ -27,3 +27,33 @@
    
 
 }
+
+@media (max-width:768px){
+    .container h2{
+        font-size: 1.5rem;
+    }
+    .container h3{
+        font-size: .8rem;
+    }
+
+    .item p, .icon{
+        font-size:1.5rem;
+        line-height: 2rem;
+        padding-top: 10px;
+    }
+}
+@media (max-width:1440px){
+    .container h2{
+        font-size: 3rem;
+    }
+    .container h3{
+        font-size: 2rem;
+    }
+
+    .item p, .icon{
+        font-size:2.5rem;
+        line-height: 6rem;
+        padding-top: 10px;
+    }
+}
+

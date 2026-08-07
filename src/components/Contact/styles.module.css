@@ -1,14 +1,11 @@
 .container{
     background-color: #111827;
-    height: 485px;
-    width: 1024;
+    width: 100%;
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 .textbutton {
@@ -37,4 +34,10 @@
 
 .conteinerParagraph{
 margin-top: 50px;    
+}
+
+@media (max-width:768px){
+    .container{
+        padding: 20px;
+    }
 }

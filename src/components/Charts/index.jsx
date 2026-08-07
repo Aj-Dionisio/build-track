@@ -29,7 +29,7 @@ function Charts() {
 
     return (
 
-        <ResponsiveContainer className={Styles.chartContainer} width="100%" height={900}>
+        <ResponsiveContainer className={Styles.chartContainer} width="100%" height="100%">
 
             <LineChart data={data}>
 

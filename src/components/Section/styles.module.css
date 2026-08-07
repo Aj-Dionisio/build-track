@@ -48,3 +48,22 @@
     display: flex;
     gap: 20px;
 }
+
+@media (max-width:768px) {
+   .card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    align-items: center;
+   }
+}
+
+@media (max-width:1024px) {
+    
+   .card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    align-items: center;
+   }
+}

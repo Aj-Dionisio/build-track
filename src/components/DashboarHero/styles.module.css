@@ -21,6 +21,7 @@
 }
 
 .titleAndSearch {
+    width: 100%;
     font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
@@ -49,8 +50,6 @@
     grid-area: cards;
 }
 
-
-
 .dashboardPainel {
     grid-area: dashboard;
     min-height: 400px;
@@ -59,7 +58,7 @@
 
 .climaStatus {
     grid-area: clima;
-    min-height: 250px;
+    height: auto;
     border-radius: 16px;
     padding-left: 24px;
     padding-top: 24px;
@@ -67,17 +66,15 @@
 
 .criticalTasks {
     grid-area: tarefas;
-    min-height: 250px;
     padding-left: 24px;
     padding-top: 24px;
 }
 
 .titleTask {
-    width: 500px;
     display: flex;
     justify-content: space-between;
     padding: 5px;
-    align-items: center;
+    align-items: start;
 }
 
 .titleButton {
@@ -106,4 +103,135 @@
 .allTasks:hover {
     font-size: 1.1rem;
     color: #38BDF8;
+}
+
+@media (max-width:768px) {
+    .container {
+        grid-template-columns: 200px 1fr;
+    }
+
+    .mainContent {
+        grid-template-areas: "title" "cards" "dashboard" "clima" "tarefas";
+        gap: 20px;
+
+    }
+
+    .titleAndSearch {
+        font-size: 1rem;
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    .title {
+        padding: 20px;
+    }
+
+    .title p {
+        margin-top: 0px;
+    }
+
+    .metricCards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    .climaStatus {
+        font-size: 1rem;
+        
+    }
+
+    .climaStatus,
+    .criticalTasks {
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+
+
+}
+
+@media (max-width:1024px) {
+    .container {
+        grid-template-columns: 200px 1fr;
+    }
+
+    .mainContent {
+        grid-template-columns: 1fr;
+        grid-template-areas: "title title" "cards cards" "dashboard dashboard" "clima clima " "tarefas tarefas";
+
+    }
+
+    .titleAndSearch {
+        font-size: 1rem;
+        
+    }
+
+    .title {
+        padding: 20px;
+    }
+
+    .title p {
+        margin-top: 0px;
+    }
+
+    .metricCards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    .climaStatus {
+        font-size: 1rem;
+        height: auto;
+    }
+
+    .climaStatus,
+    .criticalTasks {
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+
+
+}
+
+@media (max-width:1440px) {
+    .container {
+        grid-template-columns: 200px 1fr;
+    }
+
+    .mainContent {
+        grid-template-columns: 1fr;
+        grid-template-areas: "title title" "cards cards" "dashboard dashboard" "clima clima" "tarefas tarefas";
+
+    }
+
+    .title {
+        padding: 20px;
+    }
+
+    .title p {
+        margin-top: 0px;
+    }
+
+    .titleTask{
+        display:flex;
+        
+    }
+    
+    .metricCards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+    .criticalTasks, .titleButton{
+        font-size: 2rem;
+    }
+
+    .climaStatus,
+    .criticalTasks {
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+
 }
