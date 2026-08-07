@@ -1,16 +1,166 @@
-# React + Vite
+# 🚧 Build Track
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Dashboard moderno para gerenciamento e monitoramento de obras em tempo real.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite)
+![CSS Modules](https://img.shields.io/badge/CSS-Modules-1572B6?logo=css3)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios)
+![Recharts](https://img.shields.io/badge/Recharts-FF6384)
+![Status](https://img.shields.io/badge/Status-Concluído-success)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📖 Sobre
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O **Build Track** é uma aplicação Front-End desenvolvida para simular um sistema de acompanhamento de obras.
 
-## Expanding the ESLint configuration
+O objetivo do projeto foi colocar em prática conceitos modernos do ecossistema React, como componentização, reutilização de código, consumo de APIs, dashboards responsivos e organização escalável.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+O sistema apresenta indicadores de desempenho, gráficos, informações climáticas e acompanhamento das principais obras de forma intuitiva.
+
+---
+
+## 🚀 Demonstração
+
+🌐 **Aplicação**
+
+https://build-track-rust.vercel.app
+
+📂 **Repositório**
+
+https://github.com/Aj-Dionisio/build-track
+
+---
+
+## 📸 Preview
+
+### Home
+
+<img width="2173" height="1069" alt="image" src="https://github.com/user-attachments/assets/d19b4a72-e84d-4d11-98f9-2b7d7ee851f7" />
+
+
+---
+
+### Dashboard
+
+<img width="2516" height="1331" alt="image" src="https://github.com/user-attachments/assets/a55f8428-9bc2-42d9-bc16-4ace6abcdda9" />
+
+
+---
+
+## ✨ Funcionalidades
+
+- Dashboard administrativo
+- Indicadores de desempenho
+- Cards reutilizáveis
+- Projetos em destaque
+- Barra de progresso
+- Gráficos interativos
+- API de Clima em tempo real
+- Layout totalmente responsivo
+- Componentização em React
+- CSS Modules
+
+---
+
+## 🛠 Tecnologias
+
+- React
+- Vite
+- React Router DOM
+- CSS Modules
+- Axios
+- Recharts
+- Open-Meteo API
+
+---
+
+## 📁 Estrutura do Projeto
+
+src
+
+├── assets
+
+├── components
+
+├── pages
+
+├── routes
+
+├── services
+
+├── styles
+
+└── App.jsx
+
+---
+
+## 💡 Aprendizados
+
+Durante o desenvolvimento deste projeto foram praticados conceitos como:
+
+- Componentização
+- Props
+- Renderização Condicional
+- CSS Modules
+- Grid Layout
+- Flexbox
+- Responsividade
+- Consumo de APIs REST
+- Organização de componentes
+- Git Flow
+- Deploy com Vercel
+
+---
+
+## ⚙️ Como executar
+
+Clone o projeto
+
+```bash
+git clone https://github.com/Aj-Dionisio/build-track.git
+```
+
+Entre na pasta
+
+```bash
+cd build-track
+```
+
+Instale as dependências
+
+```bash
+npm install
+```
+
+Execute
+
+```bash
+npm run dev
+```
+
+---
+
+## 📌 Próximas melhorias
+
+- Autenticação de usuários
+- Backend próprio
+- Banco de dados
+- Dark / Light Mode
+- Dashboard com dados reais
+- Notificações em tempo real
+
+---
+
+## 👨‍💻 Autor
+
+**Antonio Girotto**
+
+LinkedIn
+
+https://www.linkedin.com/in/antonio-girotto
+
+GitHub
+
+https://github.com/Aj-Dionisio
