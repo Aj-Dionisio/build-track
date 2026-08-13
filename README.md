@@ -2,8 +2,8 @@
 
 > Dashboard moderno para gerenciamento e monitoramento de obras em tempo real.
 
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
-![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
 ![CSS Modules](https://img.shields.io/badge/CSS-Modules-1572B6?logo=css3)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios)
 ![Recharts](https://img.shields.io/badge/Recharts-FF6384)
