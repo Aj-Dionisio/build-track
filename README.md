@@ -13,8 +13,7 @@
 
 ## 📖 Sobre
 
-O **Build Track** é uma aplicação Front-End desenvolvida para simular um sistema de acompanhamento de obras.
-
+O Build Track é uma aplicação Front-End desenvolvida para simular um sistema de acompanhamento de obras.
 O objetivo do projeto foi colocar em prática conceitos modernos do ecossistema React, como componentização, reutilização de código, consumo de APIs, dashboards responsivos e organização escalável.
 
 O sistema apresenta indicadores de desempenho, gráficos, informações climáticas e acompanhamento das principais obras de forma intuitiva.
@@ -23,13 +22,13 @@ O sistema apresenta indicadores de desempenho, gráficos, informações climáti
 
 ## 🚀 Demonstração
 
-🌐 **Aplicação**
+🌐 <a href="https://build-track-rust.vercel.app ">**Aplicação**</a>
 
-https://build-track-rust.vercel.app
 
-📂 **Repositório**
 
-https://github.com/Aj-Dionisio/build-track
+📂 <a href="https://github.com/Aj-Dionisio/build-track">**Repositório** </a>
+
+
 
 ---
 
@@ -78,23 +77,14 @@ https://github.com/Aj-Dionisio/build-track
 
 ## 📁 Estrutura do Projeto
 
-src
-
-├── assets
-
-├── components
-
-├── pages
-
-├── routes
-
-├── services
-
-├── styles
-
-└── App.jsx
-
----
+src/
+ ┣ assets/       # Imagens e ícones
+ ┣ components/   # Componentes reutilizáveis
+ ┣ pages/        # Páginas principais
+ ┣ routes/       # Configuração de rotas
+ ┣ services/     # Consumo de APIs
+ ┣ styles/       # Estilos com CSS Modules
+ ┗ App.jsx       # Componente raiz
 
 ## 💡 Aprendizados
 
@@ -157,10 +147,13 @@ npm run dev
 
 **Antonio Girotto**
 
-LinkedIn
+<a href="https://www.linkedin.com/in/antonio-girotto">LinkedIn </a>
 
-https://www.linkedin.com/in/antonio-girotto
 
-GitHub
 
-https://github.com/Aj-Dionisio
+<a href="https://github.com/Aj-Dionisio">GitHub </a>
+
+📜 Licença
+Este projeto está sob a licença MIT.
+
+
